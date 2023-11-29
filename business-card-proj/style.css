@@ -1,0 +1,144 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #23252C;;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card {
+    background-color: #1A1B21;
+    margin-top: 20%;
+    margin-bottom: 20%;
+    justify-content: center;
+    width: 317px;
+    border-radius: 20px;
+}
+
+.headshot {
+    background-color: #1A1B21;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px 10px 0px 0px;
+    width: 317px;
+}
+
+
+h1 {
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 25px;
+    font-weight: 700;  
+    text-align: center;
+    margin-bottom: 0px;
+
+}
+
+h2 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    padding: 0px 36px
+}
+
+h3 {
+    color: #F3BF99;
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 11.5px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0px 36px 10px 36px
+}
+
+main > p {
+    margin-bottom: 6%;
+    text-align: center;
+
+}
+
+/* Buttons ---------- */
+
+.button-link {
+    cursor: pointer;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.buttons > a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    padding: 9px 13px 9px 11px;
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+.icon {
+    height: 16px;
+    margin-right: 8px;
+}
+
+.linkedin-button {
+    background: #5093E2;
+    border-radius: 7px;
+    /* display: flex; */
+}
+
+.linkedin-text {
+    color: #FFF;
+}
+
+/* Icon Bar ---------- */
+
+.icon-bar {
+    background: #161619;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 0px 10px 10px
+
+}
+
+.socials {
+   padding: 10px;
+}
+
+.email-button, .linkedin-button {
+    cursor: pointer;
+}
